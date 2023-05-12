@@ -6,4 +6,4 @@ TARGET = main
 compile:
 	$(CC) $(SOURCES) -o $(TARGET)
 clean:
-	rm &(TARGET)
+	rm $(TARGET)
